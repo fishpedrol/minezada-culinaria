@@ -40,6 +40,8 @@ function server(commands, label) {
 
 const P = '100 120 100';
 const setup = [
+  // sem random tick, para a idade da folha e da lavoura não andar entre gravar e ler
+  'gamerule random_tick_speed 0',
   'forceload add 96 96 111 111',
   'setblock 100 119 100 minecraft:stone', 'setblock 101 119 100 minecraft:stone', 'setblock 102 119 100 minecraft:stone',
   'setblock 103 119 100 minecraft:farmland[moisture=7]', 'setblock 104 119 100 minecraft:stone',
@@ -59,9 +61,11 @@ const check = [
   'forceload add 96 96 111 111',
   'data get block 100 120 100 Items',
   'data get block 101 120 100 Items',
-  'execute if block 102 120 100 culinaria:orange_leaves[age=2,fruiting=true] run say CHECK folha idade 2 ok',
+  ...[0, 1, 2, 3].map((age) => `execute if block 102 120 100 culinaria:orange_leaves[age=${age},fruiting=true] run say CHECK folha idade ${age}`),
+  'execute unless block 102 120 100 culinaria:orange_leaves run say CHECK folha sumiu',
   'execute if block 103 120 100 culinaria:tomato_crop[age=4] run say CHECK lavoura idade 4 ok',
   'execute if block 104 120 100 culinaria:sink[water=5] run say CHECK pia agua 5 ok',
+  'gamerule random_tick_speed 3',
   'forceload remove all',
 ];
 await server(setup, 'gravação');
