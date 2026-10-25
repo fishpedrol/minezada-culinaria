@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "cutting_board",
+  "ingredients": [
+    {
+      "item": "culinaria:lettuce",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:chopped_lettuce",
+    "count": 2
+  },
+  "time": 2,
+  "category": "prep"
+}

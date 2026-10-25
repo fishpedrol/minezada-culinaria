@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "culinaria:block/mill"
+    },
+    "facing=east": {
+      "model": "culinaria:block/mill",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "culinaria:block/mill",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "culinaria:block/mill",
+      "y": 270
+    }
+  }
+}

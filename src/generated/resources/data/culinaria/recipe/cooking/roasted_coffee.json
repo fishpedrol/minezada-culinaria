@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:coffee_beans",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:roasted_coffee",
+    "count": 1
+  },
+  "time": 160,
+  "category": "prep"
+}

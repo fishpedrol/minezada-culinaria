@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "sink",
+  "ingredients": [
+    {
+      "item": "culinaria:dirty_plate",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:plate",
+    "count": 1
+  },
+  "time": 1,
+  "category": "prep"
+}

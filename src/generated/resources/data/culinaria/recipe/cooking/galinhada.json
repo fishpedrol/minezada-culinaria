@@ -1,0 +1,34 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:chicken_pieces",
+      "count": 2
+    },
+    {
+      "item": "culinaria:washed_rice",
+      "count": 2
+    },
+    {
+      "item": "culinaria:corn",
+      "count": 1
+    },
+    {
+      "item": "culinaria:pepper_strips",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:galinhada",
+    "count": 2
+  },
+  "time": 320,
+  "category": "mains"
+}

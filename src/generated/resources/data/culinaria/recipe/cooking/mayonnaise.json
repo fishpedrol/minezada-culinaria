@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:whisk",
+  "ingredients": [
+    {
+      "item": "minecraft:egg",
+      "count": 2
+    },
+    {
+      "item": "culinaria:lemon",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:mayonnaise",
+    "count": 2
+  },
+  "time": 120,
+  "category": "prep"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "minecraft:beef",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:grilled_steak",
+    "count": 1
+  },
+  "time": 160,
+  "category": "meat"
+}

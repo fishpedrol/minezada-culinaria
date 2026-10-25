@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains"
+  ],
+  "features": "culinaria:orange_tree_wild",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "culinaria:corn",
+    "culinaria:peeled_cassava",
+    "culinaria:roasted_coffee",
+    "minecraft:beef",
+    "minecraft:bread",
+    "minecraft:cocoa_beans",
+    "minecraft:porkchop",
+    "minecraft:sugar_cane",
+    "minecraft:wheat"
+  ]
+}

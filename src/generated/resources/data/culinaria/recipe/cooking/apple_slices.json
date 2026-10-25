@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "cutting_board",
+  "ingredients": [
+    {
+      "item": "minecraft:apple",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:apple_slices",
+    "count": 2
+  },
+  "time": 2,
+  "category": "prep"
+}

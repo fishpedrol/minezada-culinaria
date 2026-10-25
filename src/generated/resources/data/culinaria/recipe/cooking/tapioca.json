@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:tapioca_starch",
+      "count": 2
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:tapioca",
+    "count": 1
+  },
+  "time": 120,
+  "category": "breakfast"
+}

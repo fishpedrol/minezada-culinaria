@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "minecraft:potato",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    },
+    {
+      "item": "culinaria:raw_bacon",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:stuffed_baked_potato",
+    "count": 1
+  },
+  "time": 240,
+  "category": "sides"
+}

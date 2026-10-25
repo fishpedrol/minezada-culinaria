@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:cod_fillet",
+      "count": 1
+    },
+    {
+      "item": "culinaria:potato_sticks",
+      "count": 2
+    },
+    {
+      "item": "culinaria:flour",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:fish_and_chips",
+    "count": 1
+  },
+  "time": 200,
+  "category": "fish"
+}

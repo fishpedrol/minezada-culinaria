@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:condensed_milk",
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "culinaria:doce_de_leite",
+    "count": 1
+  },
+  "time": 300,
+  "category": "prep"
+}

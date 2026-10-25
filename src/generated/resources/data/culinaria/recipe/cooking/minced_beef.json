@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "mill",
+  "ingredients": [
+    {
+      "item": "minecraft:beef",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:minced_beef",
+    "count": 2
+  },
+  "time": 5,
+  "category": "prep"
+}

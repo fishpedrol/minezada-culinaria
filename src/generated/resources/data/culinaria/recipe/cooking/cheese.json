@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "culinaria:lemon",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:cheese",
+    "count": 2
+  },
+  "time": 240,
+  "category": "prep"
+}

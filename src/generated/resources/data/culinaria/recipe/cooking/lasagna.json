@@ -1,0 +1,26 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:raw_pasta",
+      "count": 2
+    },
+    {
+      "item": "culinaria:bolognese_sauce",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 2
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:lasagna",
+    "count": 2
+  },
+  "time": 300,
+  "category": "breads_pasta"
+}

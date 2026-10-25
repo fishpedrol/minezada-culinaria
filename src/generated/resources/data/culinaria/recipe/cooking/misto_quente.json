@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_slice",
+      "count": 2
+    },
+    {
+      "item": "culinaria:ham",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:misto_quente",
+    "count": 1
+  },
+  "time": 120,
+  "category": "breakfast"
+}

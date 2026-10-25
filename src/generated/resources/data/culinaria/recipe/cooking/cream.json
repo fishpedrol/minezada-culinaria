@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:whisk",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:cream",
+    "count": 2
+  },
+  "time": 120,
+  "category": "prep"
+}

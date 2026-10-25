@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "culinaria:cutting_board",
+    "culinaria:counter",
+    "culinaria:cabinet",
+    "culinaria:pantry"
+  ]
+}

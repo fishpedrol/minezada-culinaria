@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:whisk",
+  "ingredients": [
+    {
+      "item": "culinaria:cream",
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "culinaria:butter",
+    "count": 1
+  },
+  "time": 160,
+  "category": "prep"
+}

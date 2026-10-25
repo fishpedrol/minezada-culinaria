@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "blender",
+  "ingredients": [
+    {
+      "item": "culinaria:lemon",
+      "count": 2
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:glass_bottle",
+  "result": {
+    "id": "culinaria:lemonade",
+    "count": 2
+  },
+  "time": 100,
+  "category": "drinks"
+}

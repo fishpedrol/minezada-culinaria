@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "culinaria:block/lemon_sapling"
+  }
+}

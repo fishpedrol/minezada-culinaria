@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "culinaria:block/lettuce_crop_stage0"
+    },
+    "age=1": {
+      "model": "culinaria:block/lettuce_crop_stage0"
+    },
+    "age=2": {
+      "model": "culinaria:block/lettuce_crop_stage1"
+    },
+    "age=3": {
+      "model": "culinaria:block/lettuce_crop_stage1"
+    },
+    "age=4": {
+      "model": "culinaria:block/lettuce_crop_stage2"
+    },
+    "age=5": {
+      "model": "culinaria:block/lettuce_crop_stage2"
+    },
+    "age=6": {
+      "model": "culinaria:block/lettuce_crop_stage2"
+    },
+    "age=7": {
+      "model": "culinaria:block/lettuce_crop_stage3"
+    }
+  }
+}

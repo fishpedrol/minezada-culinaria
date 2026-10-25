@@ -1,0 +1,33 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:cooked_rice",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cooked_beans",
+      "count": 1
+    },
+    {
+      "item": "culinaria:fried_egg",
+      "count": 1
+    },
+    {
+      "item": "culinaria:fries",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_lettuce",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:prato_feito",
+    "count": 1
+  },
+  "time": 120,
+  "category": "mains"
+}

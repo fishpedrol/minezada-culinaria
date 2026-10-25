@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 2
+    }
+  ],
+  "result": {
+    "id": "culinaria:condensed_milk",
+    "count": 2
+  },
+  "time": 240,
+  "category": "prep"
+}

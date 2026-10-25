@@ -1,0 +1,107 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "culinaria:block/blender_base",
+    "base": "culinaria:block/blender_base",
+    "glass": "culinaria:block/blender_glass",
+    "lid": "culinaria:block/stove_top"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        4,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#base"
+        },
+        "south": {
+          "texture": "#base"
+        },
+        "east": {
+          "texture": "#base"
+        },
+        "west": {
+          "texture": "#base"
+        },
+        "up": {
+          "texture": "#base"
+        },
+        "down": {
+          "texture": "#base"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        4,
+        5
+      ],
+      "to": [
+        11,
+        13,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#glass"
+        },
+        "south": {
+          "texture": "#glass"
+        },
+        "east": {
+          "texture": "#glass"
+        },
+        "west": {
+          "texture": "#glass"
+        },
+        "up": {
+          "texture": "#glass"
+        },
+        "down": {
+          "texture": "#glass"
+        }
+      }
+    },
+    {
+      "from": [
+        4.5,
+        13,
+        4.5
+      ],
+      "to": [
+        11.5,
+        14.5,
+        11.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#lid"
+        },
+        "south": {
+          "texture": "#lid"
+        },
+        "east": {
+          "texture": "#lid"
+        },
+        "west": {
+          "texture": "#lid"
+        },
+        "up": {
+          "texture": "#lid"
+        },
+        "down": {
+          "texture": "#lid"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:chocolate",
+      "count": 1
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:cup",
+  "result": {
+    "id": "culinaria:hot_chocolate",
+    "count": 3
+  },
+  "time": 180,
+  "category": "drinks"
+}

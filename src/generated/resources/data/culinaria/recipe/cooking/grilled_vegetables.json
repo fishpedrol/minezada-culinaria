@@ -1,0 +1,34 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:pepper_strips",
+      "count": 1
+    },
+    {
+      "item": "culinaria:carrot_slices",
+      "count": 1
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:grilled_vegetables",
+    "count": 1
+  },
+  "time": 160,
+  "category": "vegetables"
+}

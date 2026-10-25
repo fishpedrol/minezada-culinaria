@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "minecraft:mutton",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    },
+    {
+      "item": "culinaria:parsley",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:herb_lamb_chops",
+    "count": 1
+  },
+  "time": 180,
+  "category": "meat"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:minced_beef",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:beef_patty",
+    "count": 1
+  },
+  "time": 140,
+  "category": "prep"
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "culinaria:block/cutting_board",
+    "board": "culinaria:block/cutting_board"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        4
+      ],
+      "to": [
+        14,
+        1.5,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#board"
+        },
+        "south": {
+          "texture": "#board"
+        },
+        "east": {
+          "texture": "#board"
+        },
+        "west": {
+          "texture": "#board"
+        },
+        "up": {
+          "texture": "#board"
+        },
+        "down": {
+          "texture": "#board"
+        }
+      }
+    }
+  ]
+}

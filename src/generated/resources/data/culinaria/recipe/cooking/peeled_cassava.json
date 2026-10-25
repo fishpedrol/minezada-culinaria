@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "cutting_board",
+  "ingredients": [
+    {
+      "item": "culinaria:cassava",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:peeled_cassava",
+    "count": 1
+  },
+  "time": 3,
+  "category": "prep"
+}

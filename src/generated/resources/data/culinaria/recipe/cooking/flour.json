@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "mill",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:flour",
+    "count": 1
+  },
+  "time": 4,
+  "category": "prep"
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "culinaria:apple_sapling",
+    "culinaria:orange_sapling",
+    "culinaria:lemon_sapling",
+    "culinaria:peach_sapling",
+    "culinaria:cherry_sapling"
+  ]
+}

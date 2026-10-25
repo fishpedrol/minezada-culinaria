@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cream",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:pumpkin_soup",
+    "count": 2
+  },
+  "time": 240,
+  "category": "soups"
+}

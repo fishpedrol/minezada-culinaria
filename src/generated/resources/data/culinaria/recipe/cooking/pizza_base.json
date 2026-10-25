@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:rolling_pin",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_dough",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:pizza_base",
+    "count": 1
+  },
+  "time": 100,
+  "category": "prep"
+}

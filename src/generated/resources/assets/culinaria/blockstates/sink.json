@@ -1,0 +1,139 @@
+{
+  "variants": {
+    "facing=north,water=0": {
+      "model": "culinaria:block/sink"
+    },
+    "facing=east,water=0": {
+      "model": "culinaria:block/sink",
+      "y": 90
+    },
+    "facing=south,water=0": {
+      "model": "culinaria:block/sink",
+      "y": 180
+    },
+    "facing=west,water=0": {
+      "model": "culinaria:block/sink",
+      "y": 270
+    },
+    "facing=north,water=1": {
+      "model": "culinaria:block/sink_low"
+    },
+    "facing=east,water=1": {
+      "model": "culinaria:block/sink_low",
+      "y": 90
+    },
+    "facing=south,water=1": {
+      "model": "culinaria:block/sink_low",
+      "y": 180
+    },
+    "facing=west,water=1": {
+      "model": "culinaria:block/sink_low",
+      "y": 270
+    },
+    "facing=north,water=2": {
+      "model": "culinaria:block/sink_low"
+    },
+    "facing=east,water=2": {
+      "model": "culinaria:block/sink_low",
+      "y": 90
+    },
+    "facing=south,water=2": {
+      "model": "culinaria:block/sink_low",
+      "y": 180
+    },
+    "facing=west,water=2": {
+      "model": "culinaria:block/sink_low",
+      "y": 270
+    },
+    "facing=north,water=3": {
+      "model": "culinaria:block/sink_low"
+    },
+    "facing=east,water=3": {
+      "model": "culinaria:block/sink_low",
+      "y": 90
+    },
+    "facing=south,water=3": {
+      "model": "culinaria:block/sink_low",
+      "y": 180
+    },
+    "facing=west,water=3": {
+      "model": "culinaria:block/sink_low",
+      "y": 270
+    },
+    "facing=north,water=4": {
+      "model": "culinaria:block/sink_low"
+    },
+    "facing=east,water=4": {
+      "model": "culinaria:block/sink_low",
+      "y": 90
+    },
+    "facing=south,water=4": {
+      "model": "culinaria:block/sink_low",
+      "y": 180
+    },
+    "facing=west,water=4": {
+      "model": "culinaria:block/sink_low",
+      "y": 270
+    },
+    "facing=north,water=5": {
+      "model": "culinaria:block/sink_full"
+    },
+    "facing=east,water=5": {
+      "model": "culinaria:block/sink_full",
+      "y": 90
+    },
+    "facing=south,water=5": {
+      "model": "culinaria:block/sink_full",
+      "y": 180
+    },
+    "facing=west,water=5": {
+      "model": "culinaria:block/sink_full",
+      "y": 270
+    },
+    "facing=north,water=6": {
+      "model": "culinaria:block/sink_full"
+    },
+    "facing=east,water=6": {
+      "model": "culinaria:block/sink_full",
+      "y": 90
+    },
+    "facing=south,water=6": {
+      "model": "culinaria:block/sink_full",
+      "y": 180
+    },
+    "facing=west,water=6": {
+      "model": "culinaria:block/sink_full",
+      "y": 270
+    },
+    "facing=north,water=7": {
+      "model": "culinaria:block/sink_full"
+    },
+    "facing=east,water=7": {
+      "model": "culinaria:block/sink_full",
+      "y": 90
+    },
+    "facing=south,water=7": {
+      "model": "culinaria:block/sink_full",
+      "y": 180
+    },
+    "facing=west,water=7": {
+      "model": "culinaria:block/sink_full",
+      "y": 270
+    },
+    "facing=north,water=8": {
+      "model": "culinaria:block/sink_full"
+    },
+    "facing=east,water=8": {
+      "model": "culinaria:block/sink_full",
+      "y": 90
+    },
+    "facing=south,water=8": {
+      "model": "culinaria:block/sink_full",
+      "y": 180
+    },
+    "facing=west,water=8": {
+      "model": "culinaria:block/sink_full",
+      "y": 270
+    }
+  }
+}

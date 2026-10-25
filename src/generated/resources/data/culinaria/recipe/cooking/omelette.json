@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "minecraft:egg",
+      "count": 2
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    },
+    {
+      "item": "culinaria:sliced_tomato",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:omelette",
+    "count": 1
+  },
+  "time": 160,
+  "category": "breakfast"
+}

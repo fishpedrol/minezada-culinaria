@@ -1,0 +1,204 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "culinaria:block/sink_side",
+    "side": "culinaria:block/sink_side",
+    "front": "culinaria:block/sink_front",
+    "basin": "culinaria:block/sink_basin",
+    "water": "culinaria:block/sink_water"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        10,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#basin"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        10,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        2
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#basin"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        10,
+        14
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#basin"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        10,
+        2
+      ],
+      "to": [
+        2,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#basin"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        14,
+        10,
+        2
+      ],
+      "to": [
+        16,
+        16,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#side"
+        },
+        "south": {
+          "texture": "#side"
+        },
+        "east": {
+          "texture": "#side"
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#basin"
+        },
+        "down": {
+          "texture": "#side"
+        }
+      }
+    },
+    {
+      "from": [
+        2,
+        10,
+        2
+      ],
+      "to": [
+        14,
+        12,
+        14
+      ],
+      "faces": {
+        "north": {
+          "texture": "#water"
+        },
+        "south": {
+          "texture": "#water"
+        },
+        "east": {
+          "texture": "#water"
+        },
+        "west": {
+          "texture": "#water"
+        },
+        "up": {
+          "texture": "#water"
+        },
+        "down": {
+          "texture": "#water"
+        }
+      }
+    }
+  ]
+}

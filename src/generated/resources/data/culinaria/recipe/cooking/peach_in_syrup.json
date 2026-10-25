@@ -1,0 +1,26 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:peach",
+      "count": 3
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 2
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:peach_in_syrup",
+    "count": 2
+  },
+  "time": 240,
+  "category": "sweets"
+}

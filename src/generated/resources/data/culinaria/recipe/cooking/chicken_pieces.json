@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "cutting_board",
+  "ingredients": [
+    {
+      "item": "minecraft:chicken",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:chicken_pieces",
+    "count": 2
+  },
+  "time": 3,
+  "category": "prep"
+}

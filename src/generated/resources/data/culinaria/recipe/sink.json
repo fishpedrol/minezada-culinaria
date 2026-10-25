@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "B": "minecraft:bucket",
+    "S": "minecraft:stone"
+  },
+  "pattern": [
+    "I I",
+    "IBI",
+    "SSS"
+  ],
+  "result": {
+    "id": "culinaria:sink"
+  }
+}

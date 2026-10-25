@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:tomato",
+      "count": 3
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    },
+    {
+      "item": "culinaria:basil",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:tomato_soup",
+    "count": 2
+  },
+  "time": 220,
+  "category": "soups"
+}

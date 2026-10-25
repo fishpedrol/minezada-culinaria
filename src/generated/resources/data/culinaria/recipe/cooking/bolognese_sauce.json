@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:minced_beef",
+      "count": 1
+    },
+    {
+      "item": "culinaria:tomato_sauce",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:bolognese_sauce",
+    "count": 2
+  },
+  "time": 200,
+  "category": "prep"
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "culinaria:beans",
+    "culinaria:cassava_flour",
+    "culinaria:dirty_cup",
+    "culinaria:dirty_plate",
+    "culinaria:rice"
+  ]
+}

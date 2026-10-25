@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:salt",
+    "count": 3
+  },
+  "time": 200,
+  "category": "prep"
+}

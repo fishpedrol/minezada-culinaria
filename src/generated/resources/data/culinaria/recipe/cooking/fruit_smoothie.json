@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "blender",
+  "ingredients": [
+    {
+      "item": "minecraft:apple",
+      "count": 1
+    },
+    {
+      "item": "culinaria:peach",
+      "count": 1
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "minecraft:honey_bottle",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:glass_bottle",
+  "result": {
+    "id": "culinaria:fruit_smoothie",
+    "count": 2
+  },
+  "time": 120,
+  "category": "drinks"
+}

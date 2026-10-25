@@ -1,0 +1,33 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:apple_slices",
+      "count": 1
+    },
+    {
+      "item": "culinaria:orange",
+      "count": 1
+    },
+    {
+      "item": "culinaria:peach",
+      "count": 1
+    },
+    {
+      "item": "culinaria:strawberry",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cherry",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:fruit_salad",
+    "count": 2
+  },
+  "time": 100,
+  "category": "desserts"
+}

@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "mill",
+  "ingredients": [
+    {
+      "item": "culinaria:roasted_coffee",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:ground_coffee",
+    "count": 1
+  },
+  "time": 4,
+  "category": "prep"
+}

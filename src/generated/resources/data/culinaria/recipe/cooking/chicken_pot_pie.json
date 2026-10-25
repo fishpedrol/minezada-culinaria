@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:pie_crust",
+      "count": 2
+    },
+    {
+      "item": "culinaria:chicken_pieces",
+      "count": 1
+    },
+    {
+      "item": "culinaria:corn",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cream",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:chicken_pot_pie",
+    "count": 1
+  },
+  "time": 340,
+  "category": "sweets"
+}

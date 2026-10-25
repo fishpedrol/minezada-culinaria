@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "cutting_board",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_porkchop",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:ham",
+    "count": 3
+  },
+  "time": 3,
+  "category": "prep"
+}

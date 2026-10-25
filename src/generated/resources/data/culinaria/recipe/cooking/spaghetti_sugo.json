@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:cooked_pasta",
+      "count": 1
+    },
+    {
+      "item": "culinaria:tomato_sauce",
+      "count": 1
+    },
+    {
+      "item": "culinaria:basil",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:spaghetti_sugo",
+    "count": 1
+  },
+  "time": 100,
+  "category": "breads_pasta"
+}

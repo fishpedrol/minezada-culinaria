@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:whisk",
+  "ingredients": [
+    {
+      "item": "culinaria:flour",
+      "count": 2
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 2
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 2
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:cake_batter",
+    "count": 1
+  },
+  "time": 160,
+  "category": "prep"
+}

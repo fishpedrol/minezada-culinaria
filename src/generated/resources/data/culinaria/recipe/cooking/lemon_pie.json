@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:pie_crust",
+      "count": 1
+    },
+    {
+      "item": "culinaria:lemon",
+      "count": 2
+    },
+    {
+      "item": "culinaria:condensed_milk",
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:lemon_pie",
+    "count": 1
+  },
+  "time": 320,
+  "category": "sweets"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:cooked_pasta",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 2
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:mac_and_cheese",
+    "count": 1
+  },
+  "time": 200,
+  "category": "breads_pasta"
+}

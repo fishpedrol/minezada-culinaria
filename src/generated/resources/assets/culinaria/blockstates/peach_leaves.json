@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "fruiting=false": {
+      "model": "culinaria:block/peach_leaves_0"
+    },
+    "age=0,fruiting=true": {
+      "model": "culinaria:block/peach_leaves_0"
+    },
+    "age=1,fruiting=true": {
+      "model": "culinaria:block/peach_leaves_1"
+    },
+    "age=2,fruiting=true": {
+      "model": "culinaria:block/peach_leaves_2"
+    },
+    "age=3,fruiting=true": {
+      "model": "culinaria:block/peach_leaves_3"
+    }
+  }
+}

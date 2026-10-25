@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:potato",
+      "count": 2
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:mashed_potatoes",
+    "count": 2
+  },
+  "time": 200,
+  "category": "sides"
+}

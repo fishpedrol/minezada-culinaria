@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_slice",
+      "count": 2
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:rabanada",
+    "count": 2
+  },
+  "time": 160,
+  "category": "sweets"
+}

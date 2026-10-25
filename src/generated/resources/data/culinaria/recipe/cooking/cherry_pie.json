@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:pie_crust",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cherry",
+      "count": 3
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:cherry_pie",
+    "count": 1
+  },
+  "time": 320,
+  "category": "sweets"
+}

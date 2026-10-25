@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom",
+      "count": 3
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    },
+    {
+      "item": "culinaria:breadcrumbs",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:stuffed_mushrooms",
+    "count": 1
+  },
+  "time": 220,
+  "category": "vegetables"
+}

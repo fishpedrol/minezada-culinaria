@@ -1,0 +1,33 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:chopped_lettuce",
+      "count": 1
+    },
+    {
+      "item": "culinaria:sliced_tomato",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    },
+    {
+      "item": "culinaria:lemon",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:garden_salad",
+    "count": 1
+  },
+  "time": 80,
+  "category": "vegetables"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:whisk",
+  "ingredients": [
+    {
+      "item": "culinaria:condensed_milk",
+      "count": 1
+    },
+    {
+      "item": "culinaria:lemon",
+      "count": 2
+    },
+    {
+      "item": "culinaria:cream",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:lemon_mousse_mix",
+    "count": 2
+  },
+  "time": 140,
+  "category": "prep"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:raw_bacon",
+      "count": 2
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 2
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:bacon_and_eggs",
+    "count": 1
+  },
+  "time": 160,
+  "category": "breakfast"
+}

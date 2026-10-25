@@ -1,0 +1,26 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:lemon",
+      "count": 1
+    },
+    {
+      "item": "minecraft:honey_bottle",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:cup",
+  "result": {
+    "id": "culinaria:lemon_honey_tea",
+    "count": 3
+  },
+  "time": 160,
+  "category": "drinks"
+}

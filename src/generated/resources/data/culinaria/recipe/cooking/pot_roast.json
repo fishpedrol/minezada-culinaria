@@ -1,0 +1,34 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:beef_cubes",
+      "count": 2
+    },
+    {
+      "item": "minecraft:potato",
+      "count": 1
+    },
+    {
+      "item": "minecraft:carrot",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:pot_roast",
+    "count": 1
+  },
+  "time": 300,
+  "category": "meat"
+}

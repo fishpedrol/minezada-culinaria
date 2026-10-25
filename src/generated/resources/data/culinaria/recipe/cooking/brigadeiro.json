@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:condensed_milk",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cocoa_powder",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:brigadeiro",
+    "count": 6
+  },
+  "time": 200,
+  "category": "sweets"
+}

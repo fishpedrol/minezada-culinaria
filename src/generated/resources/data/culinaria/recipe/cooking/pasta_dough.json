@@ -1,0 +1,20 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:flour",
+      "count": 2
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:pasta_dough",
+    "count": 2
+  },
+  "time": 140,
+  "category": "prep"
+}

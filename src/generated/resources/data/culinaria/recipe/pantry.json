@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "minecraft:barrel",
+    "C": "minecraft:chest"
+  },
+  "pattern": [
+    "BCB"
+  ],
+  "result": {
+    "id": "culinaria:pantry"
+  }
+}

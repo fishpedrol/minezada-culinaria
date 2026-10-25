@@ -1,0 +1,34 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:soaked_beans",
+      "count": 2
+    },
+    {
+      "item": "culinaria:raw_sausage",
+      "count": 1
+    },
+    {
+      "item": "culinaria:raw_bacon",
+      "count": 1
+    },
+    {
+      "item": "minecraft:porkchop",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:feijoada",
+    "count": 2
+  },
+  "time": 360,
+  "category": "mains"
+}

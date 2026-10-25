@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:washed_rice",
+      "count": 2
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:cooked_rice",
+    "count": 3
+  },
+  "time": 200,
+  "category": "prep"
+}

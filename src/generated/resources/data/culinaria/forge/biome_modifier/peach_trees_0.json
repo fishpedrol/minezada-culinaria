@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:flower_forest",
+    "minecraft:meadow",
+    "minecraft:plains"
+  ],
+  "features": "culinaria:peach_tree_wild",
+  "step": "vegetal_decoration"
+}

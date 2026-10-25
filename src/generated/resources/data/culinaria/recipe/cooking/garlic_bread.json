@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_roll",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:garlic_bread",
+    "count": 2
+  },
+  "time": 160,
+  "category": "breads_pasta"
+}

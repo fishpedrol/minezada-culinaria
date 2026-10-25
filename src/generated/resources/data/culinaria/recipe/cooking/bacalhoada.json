@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:cod_fillet",
+      "count": 2
+    },
+    {
+      "item": "minecraft:potato",
+      "count": 2
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:bacalhoada",
+    "count": 2
+  },
+  "time": 320,
+  "category": "fish"
+}

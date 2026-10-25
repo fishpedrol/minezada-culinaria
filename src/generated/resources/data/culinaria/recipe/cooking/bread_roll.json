@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_dough",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:bread_roll",
+    "count": 2
+  },
+  "time": 200,
+  "category": "breads_pasta"
+}

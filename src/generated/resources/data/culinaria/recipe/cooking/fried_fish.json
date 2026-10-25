@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:cod_fillet",
+      "count": 2
+    },
+    {
+      "item": "culinaria:flour",
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:fried_fish",
+    "count": 1
+  },
+  "time": 180,
+  "category": "fish"
+}

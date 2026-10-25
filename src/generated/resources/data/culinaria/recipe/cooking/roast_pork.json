@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop",
+      "count": 2
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    },
+    {
+      "item": "culinaria:orange",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:roast_pork",
+    "count": 2
+  },
+  "time": 300,
+  "category": "meat"
+}

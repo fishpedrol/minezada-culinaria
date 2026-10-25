@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:tomato",
+      "count": 3
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:tomato_sauce",
+    "count": 2
+  },
+  "time": 200,
+  "category": "prep"
+}

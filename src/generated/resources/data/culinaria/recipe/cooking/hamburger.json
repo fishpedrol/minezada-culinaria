@@ -1,0 +1,32 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_roll",
+      "count": 1
+    },
+    {
+      "item": "culinaria:beef_patty",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_lettuce",
+      "count": 1
+    },
+    {
+      "item": "culinaria:sliced_tomato",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:hamburger",
+    "count": 1
+  },
+  "time": 100,
+  "category": "meat"
+}

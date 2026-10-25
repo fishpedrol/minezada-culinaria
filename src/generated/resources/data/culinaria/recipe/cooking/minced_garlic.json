@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "cutting_board",
+  "ingredients": [
+    {
+      "item": "culinaria:garlic",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:minced_garlic",
+    "count": 3
+  },
+  "time": 3,
+  "category": "prep"
+}

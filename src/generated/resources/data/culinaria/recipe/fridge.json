@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "c": "minecraft:ice",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "III",
+    "IcI",
+    "IRI"
+  ],
+  "result": {
+    "id": "culinaria:fridge"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "sink",
+  "ingredients": [
+    {
+      "item": "culinaria:cassava_flour",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:tapioca_starch",
+    "count": 1
+  },
+  "time": 1,
+  "category": "prep"
+}

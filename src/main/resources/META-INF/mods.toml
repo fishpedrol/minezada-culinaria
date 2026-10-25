@@ -1,0 +1,27 @@
+# Metadados do mod Culinária para Forge 26.3.
+modLoader="javafml"
+loaderVersion="[66,)"
+license="MIT"
+
+[[mods]]
+modId="culinaria"
+version="0.1.0"
+displayName="Culinária"
+authors="Colaboradores do Culinária"
+description='''Culinária de sobrevivência: lavouras, árvores frutíferas que voltam a dar fruto, cozinha com fogão, forno,
+pia, bancada, tábua de corte, moedor e liquidificador, móveis com inventário, livro de receitas e 100 pratos.'''
+
+# Mesma faixa do mod de referência: 66.0.2 é a menor versão testada lá (veja docs/ARQUITETURA.md).
+[[dependencies.culinaria]]
+    modId="forge"
+    mandatory=true
+    versionRange="[66.0.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.culinaria]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.3,26.4)"
+    ordering="NONE"
+    side="BOTH"

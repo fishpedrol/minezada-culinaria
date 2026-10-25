@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:cornmeal",
+      "count": 2
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:cuscuz",
+    "count": 2
+  },
+  "time": 200,
+  "category": "sides"
+}

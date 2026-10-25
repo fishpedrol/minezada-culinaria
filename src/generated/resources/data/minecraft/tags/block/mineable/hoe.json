@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "culinaria:apple_leaves",
+    "culinaria:orange_leaves",
+    "culinaria:lemon_leaves",
+    "culinaria:peach_leaves",
+    "culinaria:cherry_leaves"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:chicken_pieces",
+      "count": 2
+    },
+    {
+      "item": "culinaria:flour",
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:fried_chicken",
+    "count": 1
+  },
+  "time": 200,
+  "category": "meat"
+}

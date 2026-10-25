@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "fridge",
+  "ingredients": [
+    {
+      "item": "culinaria:ice_cream_mix",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:strawberry_ice_cream",
+    "count": 1
+  },
+  "time": 1600,
+  "category": "desserts"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:bell_pepper",
+      "count": 2
+    },
+    {
+      "item": "culinaria:minced_beef",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cooked_rice",
+      "count": 1
+    },
+    {
+      "item": "culinaria:tomato_sauce",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:stuffed_peppers",
+    "count": 2
+  },
+  "time": 280,
+  "category": "mains"
+}

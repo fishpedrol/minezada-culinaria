@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:washed_rice",
+      "count": 1
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    },
+    {
+      "item": "culinaria:condensed_milk",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:rice_pudding",
+    "count": 2
+  },
+  "time": 260,
+  "category": "desserts"
+}

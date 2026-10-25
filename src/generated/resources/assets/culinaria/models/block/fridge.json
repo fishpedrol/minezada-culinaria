@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "culinaria:block/fridge_top",
+    "front": "culinaria:block/fridge_front",
+    "side": "culinaria:block/fridge_side",
+    "particle": "culinaria:block/fridge_side"
+  }
+}

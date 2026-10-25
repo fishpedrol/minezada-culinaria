@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": "minecraft:smooth_stone_slab",
+    "P": "#minecraft:planks",
+    "B": "minecraft:crafting_table"
+  },
+  "pattern": [
+    "QQQ",
+    "PBP",
+    "PPP"
+  ],
+  "result": {
+    "id": "culinaria:counter"
+  }
+}

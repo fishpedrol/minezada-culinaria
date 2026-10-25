@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "mill",
+  "ingredients": [
+    {
+      "item": "minecraft:bread",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:breadcrumbs",
+    "count": 2
+  },
+  "time": 3,
+  "category": "prep"
+}

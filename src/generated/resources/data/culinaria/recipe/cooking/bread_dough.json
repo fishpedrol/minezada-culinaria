@@ -1,0 +1,24 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:flour",
+      "count": 3
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:bread_dough",
+    "count": 3
+  },
+  "time": 160,
+  "category": "prep"
+}

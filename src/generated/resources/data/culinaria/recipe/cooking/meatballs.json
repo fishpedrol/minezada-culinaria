@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:minced_beef",
+      "count": 2
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    },
+    {
+      "item": "culinaria:breadcrumbs",
+      "count": 1
+    },
+    {
+      "item": "culinaria:tomato_sauce",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:meatballs",
+    "count": 1
+  },
+  "time": 240,
+  "category": "meat"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "minecraft:egg",
+      "count": 2
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:scrambled_eggs",
+    "count": 1
+  },
+  "time": 120,
+  "category": "breakfast"
+}

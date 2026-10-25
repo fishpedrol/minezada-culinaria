@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_roll",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:pao_na_chapa",
+    "count": 1
+  },
+  "time": 100,
+  "category": "breakfast"
+}

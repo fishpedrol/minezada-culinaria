@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:potato",
+      "count": 2
+    },
+    {
+      "item": "culinaria:flour",
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    },
+    {
+      "item": "culinaria:tomato_sauce",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:gnocchi",
+    "count": 1
+  },
+  "time": 240,
+  "category": "breads_pasta"
+}

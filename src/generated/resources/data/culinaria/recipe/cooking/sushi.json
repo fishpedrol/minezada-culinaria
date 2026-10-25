@@ -1,0 +1,24 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:cooked_rice",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salmon_fillet",
+      "count": 1
+    },
+    {
+      "item": "minecraft:dried_kelp",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:sushi",
+    "count": 4
+  },
+  "time": 120,
+  "category": "fish"
+}

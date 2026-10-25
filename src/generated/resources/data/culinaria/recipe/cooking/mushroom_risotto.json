@@ -1,0 +1,34 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:washed_rice",
+      "count": 2
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "count": 2
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:mushroom_risotto",
+    "count": 2
+  },
+  "time": 300,
+  "category": "mains"
+}

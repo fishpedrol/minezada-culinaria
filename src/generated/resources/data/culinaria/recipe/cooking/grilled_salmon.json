@@ -1,0 +1,30 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:salmon_fillet",
+      "count": 1
+    },
+    {
+      "item": "culinaria:lemon",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salt",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:grilled_salmon",
+    "count": 1
+  },
+  "time": 160,
+  "category": "fish"
+}

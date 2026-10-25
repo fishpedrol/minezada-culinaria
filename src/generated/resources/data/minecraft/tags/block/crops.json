@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "culinaria:tomato_crop",
+    "culinaria:onion_crop",
+    "culinaria:garlic_crop",
+    "culinaria:lettuce_crop",
+    "culinaria:corn_crop",
+    "culinaria:rice_crop",
+    "culinaria:beans_crop",
+    "culinaria:bell_pepper_crop",
+    "culinaria:basil_crop",
+    "culinaria:parsley_crop",
+    "culinaria:strawberry_crop",
+    "culinaria:coffee_crop",
+    "culinaria:cassava_crop",
+    "culinaria:kale_crop"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "blender",
+  "ingredients": [
+    {
+      "item": "culinaria:orange",
+      "count": 3
+    }
+  ],
+  "container": "minecraft:glass_bottle",
+  "result": {
+    "id": "culinaria:orange_juice",
+    "count": 1
+  },
+  "time": 100,
+  "category": "drinks"
+}

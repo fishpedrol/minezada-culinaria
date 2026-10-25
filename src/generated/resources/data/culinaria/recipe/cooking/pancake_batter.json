@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:whisk",
+  "ingredients": [
+    {
+      "item": "culinaria:flour",
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    },
+    {
+      "item": "minecraft:milk_bucket",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:pancake_batter",
+    "count": 2
+  },
+  "time": 120,
+  "category": "prep"
+}

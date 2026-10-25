@@ -1,0 +1,34 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:potato",
+      "count": 2
+    },
+    {
+      "item": "minecraft:carrot",
+      "count": 1
+    },
+    {
+      "item": "culinaria:mayonnaise",
+      "count": 1
+    },
+    {
+      "item": "culinaria:parsley",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:potato_salad",
+    "count": 2
+  },
+  "time": 220,
+  "category": "vegetables"
+}

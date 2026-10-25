@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:rolling_pin",
+  "ingredients": [
+    {
+      "item": "culinaria:flour",
+      "count": 2
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:pie_crust",
+    "count": 2
+  },
+  "time": 140,
+  "category": "prep"
+}

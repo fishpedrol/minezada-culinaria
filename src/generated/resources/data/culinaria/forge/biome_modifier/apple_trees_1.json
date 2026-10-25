@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:plains",
+    "minecraft:meadow"
+  ],
+  "features": "culinaria:apple_tree_wild",
+  "step": "vegetal_decoration"
+}

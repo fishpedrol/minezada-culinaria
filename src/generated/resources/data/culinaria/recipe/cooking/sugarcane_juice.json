@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "blender",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar_cane",
+      "count": 3
+    },
+    {
+      "item": "culinaria:lemon",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:glass_bottle",
+  "result": {
+    "id": "culinaria:sugarcane_juice",
+    "count": 1
+  },
+  "time": 100,
+  "category": "drinks"
+}

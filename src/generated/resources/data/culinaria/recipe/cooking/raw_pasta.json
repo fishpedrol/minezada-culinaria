@@ -1,0 +1,17 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:rolling_pin",
+  "ingredients": [
+    {
+      "item": "culinaria:pasta_dough",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:raw_pasta",
+    "count": 2
+  },
+  "time": 100,
+  "category": "prep"
+}

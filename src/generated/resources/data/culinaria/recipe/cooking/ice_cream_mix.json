@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "utensil": "culinaria:whisk",
+  "ingredients": [
+    {
+      "item": "culinaria:cream",
+      "count": 1
+    },
+    {
+      "item": "culinaria:strawberry",
+      "count": 2
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:ice_cream_mix",
+    "count": 2
+  },
+  "time": 140,
+  "category": "prep"
+}

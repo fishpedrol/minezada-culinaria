@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "sink",
+  "ingredients": [
+    {
+      "item": "culinaria:rice",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:washed_rice",
+    "count": 1
+  },
+  "time": 1,
+  "category": "prep"
+}

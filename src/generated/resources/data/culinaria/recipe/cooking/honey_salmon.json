@@ -1,0 +1,26 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:salmon_fillet",
+      "count": 1
+    },
+    {
+      "item": "minecraft:honey_bottle",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:honey_salmon",
+    "count": 1
+  },
+  "time": 160,
+  "category": "fish"
+}

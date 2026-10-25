@@ -1,0 +1,16 @@
+{
+  "type": "culinaria:cooking",
+  "station": "cutting_board",
+  "ingredients": [
+    {
+      "item": "minecraft:bread",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:bread_slice",
+    "count": 4
+  },
+  "time": 2,
+  "category": "prep"
+}

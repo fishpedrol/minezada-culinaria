@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:cooked_rice",
+      "count": 1
+    },
+    {
+      "item": "culinaria:salmon_fillet",
+      "count": 1
+    },
+    {
+      "item": "culinaria:chopped_lettuce",
+      "count": 1
+    },
+    {
+      "item": "culinaria:corn",
+      "count": 1
+    }
+  ],
+  "container": "minecraft:bowl",
+  "result": {
+    "id": "culinaria:poke_bowl",
+    "count": 1
+  },
+  "time": 100,
+  "category": "fish"
+}

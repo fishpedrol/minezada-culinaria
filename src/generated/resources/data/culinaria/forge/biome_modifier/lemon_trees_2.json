@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:plains"
+  ],
+  "features": "culinaria:lemon_tree_wild",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:cooked_pasta",
+      "count": 1
+    },
+    {
+      "item": "culinaria:bolognese_sauce",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:spaghetti_bolognese",
+    "count": 1
+  },
+  "time": 100,
+  "category": "breads_pasta"
+}

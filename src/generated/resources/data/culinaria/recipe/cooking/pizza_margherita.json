@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:pizza_base",
+      "count": 1
+    },
+    {
+      "item": "culinaria:tomato_sauce",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cheese",
+      "count": 1
+    },
+    {
+      "item": "culinaria:basil",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:pizza_margherita",
+    "count": 1
+  },
+  "time": 240,
+  "category": "breads_pasta"
+}

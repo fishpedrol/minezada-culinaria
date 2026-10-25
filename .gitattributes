@@ -1,0 +1,4 @@
+# Arquivos gerados sempre com LF, para o git não acusar mudança só de fim de linha
+src/generated/**/*.json text eol=lf
+src/generated/**/*.mcmeta text eol=lf
+src/generated/**/*.java text eol=lf

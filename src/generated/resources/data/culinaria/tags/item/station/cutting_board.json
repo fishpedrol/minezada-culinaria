@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "culinaria:bell_pepper",
+    "culinaria:cassava",
+    "culinaria:garlic",
+    "culinaria:lettuce",
+    "culinaria:onion",
+    "culinaria:tomato",
+    "minecraft:apple",
+    "minecraft:beef",
+    "minecraft:bread",
+    "minecraft:carrot",
+    "minecraft:chicken",
+    "minecraft:cod",
+    "minecraft:cooked_porkchop",
+    "minecraft:porkchop",
+    "minecraft:potato",
+    "minecraft:salmon"
+  ]
+}

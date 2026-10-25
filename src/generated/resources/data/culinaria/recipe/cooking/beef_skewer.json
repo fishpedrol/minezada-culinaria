@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:beef_cubes",
+      "count": 2
+    },
+    {
+      "item": "culinaria:chopped_onion",
+      "count": 1
+    },
+    {
+      "item": "culinaria:pepper_strips",
+      "count": 1
+    },
+    {
+      "item": "minecraft:stick",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:beef_skewer",
+    "count": 2
+  },
+  "time": 160,
+  "category": "meat"
+}

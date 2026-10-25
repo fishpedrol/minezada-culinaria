@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:cake_batter",
+      "count": 1
+    },
+    {
+      "item": "culinaria:strawberry",
+      "count": 2
+    },
+    {
+      "item": "culinaria:cream",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:strawberry_cake",
+    "count": 4
+  },
+  "time": 300,
+  "category": "desserts"
+}

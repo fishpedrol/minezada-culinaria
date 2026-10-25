@@ -1,0 +1,33 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:frying_pan",
+  "ingredients": [
+    {
+      "item": "culinaria:flour",
+      "count": 2
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    },
+    {
+      "item": "culinaria:doce_de_leite",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:churros",
+    "count": 4
+  },
+  "time": 200,
+  "category": "sweets"
+}

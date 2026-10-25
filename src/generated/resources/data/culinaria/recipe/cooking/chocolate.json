@@ -1,0 +1,25 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:cocoa_powder",
+      "count": 2
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    },
+    {
+      "item": "culinaria:butter",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:chocolate",
+    "count": 3
+  },
+  "time": 200,
+  "category": "prep"
+}

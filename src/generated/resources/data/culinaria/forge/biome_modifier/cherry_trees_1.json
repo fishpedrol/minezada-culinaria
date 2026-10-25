@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:cherry_grove"
+  ],
+  "features": "culinaria:cherry_tree_wild",
+  "step": "vegetal_decoration"
+}

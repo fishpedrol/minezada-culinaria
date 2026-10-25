@@ -1,0 +1,34 @@
+{
+  "type": "culinaria:cooking",
+  "station": "stove",
+  "utensil": "culinaria:cooking_pot",
+  "ingredients": [
+    {
+      "item": "culinaria:washed_rice",
+      "count": 2
+    },
+    {
+      "item": "minecraft:carrot",
+      "count": 1
+    },
+    {
+      "item": "culinaria:pepper_strips",
+      "count": 1
+    },
+    {
+      "item": "culinaria:corn",
+      "count": 1
+    },
+    {
+      "item": "minecraft:water_bucket",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:arroz_a_grega",
+    "count": 2
+  },
+  "time": 240,
+  "category": "sides"
+}

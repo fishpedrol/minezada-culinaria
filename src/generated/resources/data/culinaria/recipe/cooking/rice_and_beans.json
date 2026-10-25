@@ -1,0 +1,21 @@
+{
+  "type": "culinaria:cooking",
+  "station": "counter",
+  "ingredients": [
+    {
+      "item": "culinaria:cooked_rice",
+      "count": 1
+    },
+    {
+      "item": "culinaria:cooked_beans",
+      "count": 1
+    }
+  ],
+  "container": "culinaria:plate",
+  "result": {
+    "id": "culinaria:rice_and_beans",
+    "count": 1
+  },
+  "time": 80,
+  "category": "mains"
+}

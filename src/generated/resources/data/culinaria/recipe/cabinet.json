@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": "#minecraft:wooden_trapdoors",
+    "C": "minecraft:chest"
+  },
+  "pattern": [
+    "DCD"
+  ],
+  "result": {
+    "id": "culinaria:cabinet"
+  }
+}

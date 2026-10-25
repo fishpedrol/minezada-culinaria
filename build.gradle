@@ -1,0 +1,77 @@
+// Build do mod Culinária: Minecraft 26.3 + Forge 26.3-66.0.13 + Java 25 (a mesma matriz do mod de referência
+// "Cultivo", conferida em docs/ARQUITETURA.md). Baseado no MDK oficial do Forge.
+
+plugins {
+    id 'java'
+    id 'idea'
+    id 'eclipse'
+    id 'net.minecraftforge.gradle' version '[7.0.17,8)'
+}
+
+version = '0.1.0'
+group = 'io.github.peixeangola.culinaria'
+
+base {
+    archivesName = 'culinaria'
+}
+
+// O Minecraft 26.1+ roda em Java 25
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+// Recursos e a tabela de conteúdo saem de tools/gen (node tools/gen/generate.mjs)
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+sourceSets.main.java { srcDir 'src/generated/java' }
+
+// Versão do Forge fixada; para checar outra: ./gradlew build -Pculinaria_forge_version=26.3-66.0.2
+def forgeVersion = providers.gradleProperty('culinaria_forge_version').getOrElse('26.3-66.0.13')
+
+minecraft {
+    runs {
+        configureEach {
+            workingDir = layout.projectDirectory.dir('run')
+
+            systemProperty 'eventbus.api.strictRuntimeChecks', 'true'
+            systemProperty 'forge.enabledGameTestNamespaces', 'culinaria'
+        }
+
+        register('client')
+
+        register('server') {
+            args '--nogui'
+        }
+
+        register('gameTestServer')
+    }
+}
+
+repositories {
+    minecraft.mavenizer(it)
+    maven fg.forgeMaven
+    maven fg.minecraftLibsMaven
+    mavenCentral()
+}
+
+dependencies {
+    implementation minecraft.dependency("net.minecraftforge:forge:${forgeVersion}")
+    annotationProcessor 'net.minecraftforge:eventbus-validator:7.0.6'
+
+    // Testes de regras puras e de completude dos dados (sem subir o Minecraft)
+    testImplementation platform('org.junit:junit-bom:5.12.2')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'com.google.code.gson:gson:2.13.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.named('test', Test) {
+    useJUnitPlatform()
+    // Os testes de dados leem src/generated/resources a partir da raiz
+    workingDir = layout.projectDirectory.asFile
+    testLogging {
+        events 'failed'
+        exceptionFormat 'full'
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}

@@ -1,0 +1,29 @@
+{
+  "type": "culinaria:cooking",
+  "station": "oven",
+  "utensil": "culinaria:baking_tray",
+  "ingredients": [
+    {
+      "item": "culinaria:bread_slice",
+      "count": 2
+    },
+    {
+      "item": "culinaria:sliced_tomato",
+      "count": 1
+    },
+    {
+      "item": "culinaria:minced_garlic",
+      "count": 1
+    },
+    {
+      "item": "culinaria:basil",
+      "count": 1
+    }
+  ],
+  "result": {
+    "id": "culinaria:bruschetta",
+    "count": 2
+  },
+  "time": 140,
+  "category": "vegetables"
+}
