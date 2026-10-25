@@ -11,6 +11,7 @@ Explorar → conseguir recursos → plantar e colher → obter ingredientes → 
 - **Cozinha:** fogão e forno (com combustível), bancada de cozinha, liquidificador, pia, tábua de corte e moedor manual.
 - **Móveis:** geladeira (só comida, e gela mousse e sorvete com o tempo), armário (18 espaços) e despensa (36 espaços).
 - **Utensílios e louça:** faca, panela, frigideira, forma, rolo de massa, batedor, prato e xícara (voltam sujos e são lavados na pia).
+- **Tudo em português**, mesmo com o jogo em inglês (o `en_us.json` sai igual ao `pt_br.json`; chave `PORTUGUESE_EVERYWHERE` em `tools/gen/generate.mjs`).
 - **Livro de receitas** com busca, categorias, "tenho / preciso" (inventário + móveis por perto), onde conseguir cada ingrediente e as etapas.
 - **100 pratos** em 11 categorias, mais 54 preparos de ingredientes (farinha, massas, molhos, queijo, manteiga...). Catálogo completo em
   [docs/CATALOGO_RECEITAS.md](docs/CATALOGO_RECEITAS.md); fontes dos ingredientes em [docs/INGREDIENTES.md](docs/INGREDIENTES.md).

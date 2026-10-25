@@ -460,7 +460,10 @@ for (const [id, [pt, en]] of Object.entries(HINTS)) tr(`tooltip.${NS}.${id}`, pt
 tr(`tooltip.${NS}.dish_category`, 'Categoria: %s', 'Category: %s');
 tr(`tooltip.${NS}.returns`, 'Depois de comer, devolve: %s', 'After eating, returns: %s');
 json(join(ASSETS, 'lang', 'pt_br.json'), sortObj(lang.pt));
-json(join(ASSETS, 'lang', 'en_us.json'), sortObj(lang.en));
+// Pedido do dono (25/10/2026): tudo do mod em português, mesmo com o jogo em inglês. Os textos em inglês continuam no
+// catálogo; para voltar a ter en_us em inglês, ponha PORTUGUESE_EVERYWHERE = false.
+const PORTUGUESE_EVERYWHERE = true;
+json(join(ASSETS, 'lang', 'en_us.json'), sortObj(PORTUGUESE_EVERYWHERE ? lang.pt : lang.en));
 function sortObj(o) {
   return Object.fromEntries(Object.entries(o).sort(([a], [b]) => a.localeCompare(b)));
 }
