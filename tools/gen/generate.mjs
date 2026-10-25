@@ -468,7 +468,7 @@ function sortObj(o) {
 // ================================================================ GameTests (um test_instance por função)
 export const GAME_TESTS = ['crop_grows_and_drops', 'fruit_harvest_regrows', 'fruit_leaves_persist', 'stove_cooks_recipe', 'station_status_messages', 'station_keeps_items_on_close',
   'station_persistence', 'oven_bakes_with_fuel', 'counter_assembles_dish', 'cutting_board_cuts', 'sink_washes_and_fills', 'mill_grinds', 'fridge_chills', 'storage_persists',
-  'catalog_has_100_dishes', 'dish_returns_container', 'sapling_grows_fruit_tree', 'remainders_returned'];
+  'catalog_has_100_dishes', 'dish_returns_container', 'sapling_grows_fruit_tree', 'remainders_returned', 'grass_drops_seeds', 'station_hopper_faces'];
 for (const name of GAME_TESTS) {
   json(join(DATA, 'test_instance', `${name}.json`), { type: 'minecraft:function', function: `${NS}:${name}`, environment: 'minecraft:default', structure: 'forge:empty9x9x9', max_ticks: 200, ...(name.startsWith('sapling') || name.startsWith('crop') ? { sky_access: true } : {}) });
 }

@@ -54,8 +54,8 @@ public final class KitchenSlots {
     public static final int INVENTORY_TOP = 106;
     public static final int ARROW_X = 84;
     public static final int ARROW_Y = 27;
-    public static final int FLAME_X = 63;
-    public static final int FLAME_Y = 46;
+    public static final int FLAME_X = 81;
+    public static final int FLAME_Y = 64;
     public static final int STATUS_Y = 84;
 
     public static int x(int slot) {

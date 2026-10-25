@@ -250,7 +250,7 @@ public final class GeneratedContent {
     public static final List<String> CATEGORY_ICONS = List.of("pizza_margherita", "fried_egg", "roast_chicken", "grilled_salmon", "feijoada", "tomato_soup", "fries", "garden_salad", "chocolate_cake", "apple_pie", "orange_juice");
 
     /** Nomes dos GameTests (um test_instance gerado para cada). */
-    public static final List<String> GAME_TESTS = List.of("crop_grows_and_drops", "fruit_harvest_regrows", "fruit_leaves_persist", "stove_cooks_recipe", "station_status_messages", "station_keeps_items_on_close", "station_persistence", "oven_bakes_with_fuel", "counter_assembles_dish", "cutting_board_cuts", "sink_washes_and_fills", "mill_grinds", "fridge_chills", "storage_persists", "catalog_has_100_dishes", "dish_returns_container", "sapling_grows_fruit_tree", "remainders_returned");
+    public static final List<String> GAME_TESTS = List.of("crop_grows_and_drops", "fruit_harvest_regrows", "fruit_leaves_persist", "stove_cooks_recipe", "station_status_messages", "station_keeps_items_on_close", "station_persistence", "oven_bakes_with_fuel", "counter_assembles_dish", "cutting_board_cuts", "sink_washes_and_fills", "mill_grinds", "fridge_chills", "storage_persists", "catalog_has_100_dishes", "dish_returns_container", "sapling_grows_fruit_tree", "remainders_returned", "grass_drops_seeds", "station_hopper_faces");
 
     public static final int DISH_COUNT = 100;
 

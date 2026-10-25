@@ -21,6 +21,8 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.ContainerHelper;
+import net.minecraft.world.WorldlyContainer;
+import net.minecraft.core.Direction;
 import net.minecraft.world.Containers;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -48,10 +50,10 @@ import org.jspecify.annotations.Nullable;
  *   <li>avança o progresso; no fim gasta os ingredientes e o recipiente, põe o prato na saída e as sobras nos slots delas.</li>
  * </ol>
  * Se algo falta, o progresso fica parado (não se perde) e o motivo vai para o cliente pelo ContainerData. Trocar os
- * ingredientes por outra receita zera o progresso. Os itens só saem pela interface, por funil nas entradas permitidas
- * ou ao quebrar o bloco (caem no chão).
+ * ingredientes por outra receita zera o progresso. Funis: por cima entram ingredientes, pelos lados combustível e
+ * recipientes, e por baixo só saem o prato pronto e as sobras. Ao quebrar o bloco, tudo cai no chão.
  */
-public class CookingStationBlockEntity extends BaseContainerBlockEntity {
+public class CookingStationBlockEntity extends BaseContainerBlockEntity implements WorldlyContainer {
     public static final int INGREDIENT_SLOTS = 6;
     public static final int UTENSIL = 6;
     public static final int CONTAINER = 7;
@@ -364,6 +366,25 @@ public class CookingStationBlockEntity extends BaseContainerBlockEntity {
     @Override
     public boolean canPlaceItem(int slot, ItemStack stack) {
         return KitchenSlots.mayPlace(station(), slot, stack);
+    }
+
+    private static final int[] TOP_SLOTS = {0, 1, 2, 3, 4, 5};
+    private static final int[] SIDE_SLOTS = {FUEL, CONTAINER};
+    private static final int[] BOTTOM_SLOTS = {OUTPUT, LEFTOVER_A, LEFTOVER_B};
+
+    @Override
+    public int[] getSlotsForFace(Direction side) {
+        return side == Direction.UP ? TOP_SLOTS : side == Direction.DOWN ? BOTTOM_SLOTS : SIDE_SLOTS;
+    }
+
+    @Override
+    public boolean canPlaceItemThroughFace(int slot, ItemStack stack, @Nullable Direction side) {
+        return side != Direction.DOWN && canPlaceItem(slot, stack);
+    }
+
+    @Override
+    public boolean canTakeItemThroughFace(int slot, ItemStack stack, Direction side) {
+        return side == Direction.DOWN && (slot == OUTPUT || slot == LEFTOVER_A || slot == LEFTOVER_B);
     }
 
     @Override

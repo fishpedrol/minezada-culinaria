@@ -81,6 +81,8 @@ public final class CulinariaGameTests {
         TESTS.register("dish_returns_container", () -> CulinariaGameTests::dishReturnsContainer);
         TESTS.register("sapling_grows_fruit_tree", () -> CulinariaGameTests::saplingGrowsFruitTree);
         TESTS.register("remainders_returned", () -> CulinariaGameTests::remaindersReturned);
+        TESTS.register("grass_drops_seeds", () -> CulinariaGameTests::grassDropsSeeds);
+        TESTS.register("station_hopper_faces", () -> CulinariaGameTests::stationHopperFaces);
     }
 
     private CulinariaGameTests() {}
@@ -647,6 +649,42 @@ public final class CulinariaGameTests {
                 check(left.is(c.expected()), c.dish() + " devolveu " + left);
                 check(player.getFoodData().getFoodLevel() > 2, c.dish() + " não alimentou");
             }
+        });
+    }
+
+    /** A grama baixa quebrada solta sementes do Culinária (pool injetado), com várias espécies em 600 quebras. */
+    public static void grassDropsSeeds(GameTestHelper helper) {
+        run(helper, () -> {
+            ServerLevel level = helper.getLevel();
+            helper.setBlock(FLOOR, Blocks.GRASS_BLOCK.defaultBlockState());
+            helper.setBlock(SPOT, Blocks.SHORT_GRASS.defaultBlockState());
+            BlockPos pos = helper.absolutePos(SPOT);
+            Set<Item> kinds = new HashSet<>();
+            int seeds = 0;
+            for (int i = 0; i < 600; i++) {
+                for (ItemStack drop : Block.getDrops(level.getBlockState(pos), level, pos, null)) {
+                    if (drop.getItem().builtInRegistryHolder().key().identifier().getNamespace().equals(Culinaria.MOD_ID)) {
+                        kinds.add(drop.getItem());
+                        seeds += drop.getCount();
+                    }
+                }
+            }
+            check(seeds >= 20 && seeds <= 120, "sementes em 600 gramas (esperado ~60 com 10%): " + seeds);
+            check(kinds.size() >= 5, "espécies de semente: " + kinds.size());
+        });
+    }
+
+    /** Funil: por cima entram ingredientes, pelos lados combustível e recipiente; por baixo só saem prato e sobras. */
+    public static void stationHopperFaces(GameTestHelper helper) {
+        run(helper, () -> {
+            CookingStationBlockEntity stove = station(helper, "stove");
+            check(stove.canPlaceItemThroughFace(0, stack("tomato", 1), Direction.UP), "ingrediente por cima");
+            check(stove.canPlaceItemThroughFace(CookingStationBlockEntity.FUEL, new ItemStack(Items.COAL), Direction.NORTH), "carvão pelo lado");
+            check(!stove.canPlaceItemThroughFace(CookingStationBlockEntity.FUEL, stack("tomato", 1), Direction.NORTH), "tomate no combustível");
+            check(!stove.canPlaceItemThroughFace(CookingStationBlockEntity.OUTPUT, stack("tomato_soup", 1), Direction.UP), "nada entra na saída");
+            check(stove.canTakeItemThroughFace(CookingStationBlockEntity.OUTPUT, stack("tomato_soup", 1), Direction.DOWN), "prato sai por baixo");
+            check(!stove.canTakeItemThroughFace(0, stack("tomato", 1), Direction.DOWN), "ingrediente não sai pelo funil");
+            check(!stove.canTakeItemThroughFace(CookingStationBlockEntity.UTENSIL, stack("cooking_pot", 1), Direction.DOWN), "panela não sai pelo funil");
         });
     }
 }

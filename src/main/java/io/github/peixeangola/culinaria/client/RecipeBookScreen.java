@@ -10,11 +10,9 @@ import io.github.peixeangola.culinaria.registry.ModItems;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
-import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import net.minecraft.ChatFormatting;
@@ -137,8 +135,10 @@ public class RecipeBookScreen extends Screen {
         }
         list.sort((a, b) -> name(a.recipe().result()).getString().compareToIgnoreCase(name(b.recipe().result()).getString()));
         visible = list;
-        if (selected == null && !visible.isEmpty()) {
+        // A seleção acompanha o filtro: se o prato aberto saiu da lista, abre o primeiro da lista nova
+        if ((selected == null || !visible.contains(selected)) && !visible.isEmpty()) {
             selected = visible.getFirst();
+            detailScroll = 0;
         }
     }
 
@@ -377,6 +377,12 @@ public class RecipeBookScreen extends Screen {
                 clickRows.add(new ClickRow(x, y, x + width, y + 16, made.orElse(null), tooltip));
             }
             y += 17;
+            if (made.isEmpty() && Language.getInstance().has(sourceKey(ingredient.item()))) {
+                // De onde vem o ingrediente cru, numa linha cinza (o texto inteiro fica no tooltip)
+                String where = font.plainSubstrByWidth(Component.translatable(sourceKey(ingredient.item())).getString(), width - 20);
+                graphics.text(font, where, x + 20, y - 2, 0xFF8A7A60, false);
+                y += 9;
+            }
         }
         y = line(graphics, Component.translatable(all ? "culinaria.book.ready" : "culinaria.book.nearby")
             .withStyle(all ? ChatFormatting.DARK_GREEN : ChatFormatting.GRAY), x, y + 2, width);
@@ -465,17 +471,5 @@ public class RecipeBookScreen extends Screen {
             detailScroll = Math.max(0, detailScroll - (int) (Math.signum(scrollY) * 12));
         }
         return true;
-    }
-
-    /** Para os testes de lógica: a lista visível no momento. */
-    List<RecipeCatalog.Entry> visibleEntries() {
-        return visible;
-    }
-
-    /** Contagem por item usada no detalhe (inventário + móveis). */
-    Map<Item, Integer> haveAll(List<Item> items) {
-        Map<Item, Integer> counts = new HashMap<>();
-        items.forEach(item -> counts.put(item, have(item)));
-        return counts;
     }
 }
