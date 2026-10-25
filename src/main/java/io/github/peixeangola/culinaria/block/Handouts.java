@@ -1,6 +1,7 @@
 package io.github.peixeangola.culinaria.block;
 
 import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.util.Prediction;
@@ -21,8 +22,9 @@ final class Handouts {
 
     /** Aviso curto acima da barra de itens (só no servidor, que é quem sabe o motivo). */
     static void tell(Player player, Component message) {
-        if (!player.level().isClientSide()) {
-            player.sendOverlayMessage(message);
+        // o jogador simulado dos GameTests não tem conexão
+        if (player instanceof ServerPlayer serverPlayer && serverPlayer.connection != null) {
+            serverPlayer.sendOverlayMessage(message);
         }
     }
 }

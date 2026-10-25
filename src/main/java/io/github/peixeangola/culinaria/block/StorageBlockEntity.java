@@ -54,9 +54,13 @@ public class StorageBlockEntity extends BaseContainerBlockEntity {
     }
 
     public void fridgeTick(ServerLevel level) {
-        if (level.getGameTime() % FRIDGE_INTERVAL != 0) {
-            return;
+        if (level.getGameTime() % FRIDGE_INTERVAL == 0) {
+            chillStep(level);
         }
+    }
+
+    /** Um passo de {@link #FRIDGE_INTERVAL} ticks da geladeira (público para os GameTests). */
+    public void chillStep(ServerLevel level) {
         RecipeCatalog catalog = RecipeCatalog.server(level.getServer());
         boolean changed = false;
         for (int slot = 0; slot < items.size(); slot++) {
